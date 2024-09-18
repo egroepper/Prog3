@@ -73,7 +73,7 @@ public class MainCLIundGUI extends Application {
 
         gui.setVerkaufsautomat(vkaParallel);
 
-        Thread cliThread = new Thread(cli::cli); // hier Vorschlag von Intellij angenommen
+        Thread cliThread = new Thread(cli::cli); 
         cliThread.start();
     }
 
