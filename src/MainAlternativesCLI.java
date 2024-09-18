@@ -63,7 +63,7 @@ public class MainAlternativesCLI {
                 // bof.setKuchenInspizierenEventHandler(inspizierenEventHandler);
                 // bof.setKuchenEntfernenEventHandler(entfernenEventHandler);
 
-                bof.cli(); // ganz ans Ende setzten, da infinite loop
+                bof.cli(); 
             }
         }
     }
