@@ -13,7 +13,6 @@ public class dlInspizierenEventListener implements KuchenInspizierenEventListene
 
     @Override
     public void onKuchenInspizieren(KuchenInspizierenEventImpl event) {
-        //this.VKA_MODEL.inspektionsdatumAendern(event.getFachnummer());
         this.VKA_MODEL.inspektionsdatumAendern(event.getFachnummer());
     }
 }
