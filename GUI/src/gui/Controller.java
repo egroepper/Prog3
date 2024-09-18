@@ -68,7 +68,7 @@ public class Controller implements Initializable {
     final Verkaufsautomat vka = new Verkaufsautomat(20);
     final Parser parser = new Parser();
 
-    public Controller() throws Exception {} // hier Vorschlag von Intellij angenommen wegen Exception in Verkaufsautomatsignatur
+    public Controller() throws Exception {} 
 
 
    // Einfuegen erfolgt nebenlaeufig
@@ -84,7 +84,6 @@ public class Controller implements Initializable {
                         Platform.runLater(() -> obstkuchenObservableList.add(obstkuchen));  // Quelle: https://stackoverflow.com/questions/13784333/platform-runlater-and-task-in-javafx und Vorschlag von Intellij angenommen
                          // Kuchenliste_tabelle.setItems(obstkuchenObservableList);
                          Kuchenliste_tabelle.refresh();
-                        // fuegt Kuchen immmer nur an Fachnummer 0 ein, deswegen wieder auskommentiert
                     }
                 } catch (Exception e) {
                     throw new RuntimeException(e);
@@ -107,7 +106,7 @@ public class Controller implements Initializable {
                 // Kuchenliste_tabelle.setItems(obstkuchenObservableList);
                 // Kuchenliste_tabelle.refresh();
             }
-        } catch (NumberFormatException | NoSuchElementException e) { // hier Vorschlag von Intellij angenommen
+        } catch (NumberFormatException | NoSuchElementException e) { 
             throw new RuntimeException(e);
         }
         input_entfernen.clear();
@@ -128,7 +127,7 @@ public class Controller implements Initializable {
                 }
                 Kuchenliste_tabelle.setItems(obstkuchenObservableList);
             }
-        } catch (NumberFormatException | NoSuchElementException e) { // hier Vorschlag von Intellij angenommen
+        } catch (NumberFormatException | NoSuchElementException e) { 
             throw new RuntimeException(e);
         }
         input_update.clear();
