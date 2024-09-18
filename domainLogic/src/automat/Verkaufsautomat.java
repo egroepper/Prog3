@@ -21,7 +21,6 @@ public class Verkaufsautomat implements Serializable {
     public Verkaufsautomat(int kapazitaet) throws Exception {
         this.KAPAZITAET = kapazitaet;
 
-        // evt. unnütz, weil ein Array sowieso nicht mit -1 erstellt werden kann
         if (kapazitaet < 0) {
             throw new Exception("Kapazitaet muss mindestens 0 betragen");
         }
