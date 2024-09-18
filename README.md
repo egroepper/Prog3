@@ -19,3 +19,4 @@ _Hinweis: Event System wurde händisch erstellt werden, keine Benutzung von Java
 ### weniger Fokus lag auf:
 - Umsetzung der gesamten GL
 - GUI
+- Error und Exception Handling
