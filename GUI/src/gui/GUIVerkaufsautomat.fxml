@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller">
+    <children>
+      <AnchorPane layoutX="325.0" prefHeight="477.0" prefWidth="432.0" AnchorPane.leftAnchor="325.0" AnchorPane.rightAnchor="-2.0">
+         <children>
+            <Button fx:id="button_auflisten" layoutY="55.0" mnemonicParsing="false" onAction="#kuchenAuflisten" text="Auflisten" />
+             <TableView fx:id="Kuchenliste_tabelle" layoutY="89.0" onDragDetected="#handleDragDetected" onDragDropped="#handleDragDropped" onDragOver="#handleDragOver" prefHeight="367.0" prefWidth="410.0">
+                 <columns>
+                     <TableColumn fx:id="fachnummer_spalte" prefWidth="60.0" text="FachNr." />
+                     <TableColumn fx:id="inspektionsdatum_spalte" prefWidth="174.0" text="Inspektionsdatum" />
+                     <TableColumn fx:id="verblHaltbarkeit_spalte" prefWidth="175.0" text="verbl. Haltbarkeit" />
+                 </columns>
+             </TableView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-1.0" prefHeight="188.0" prefWidth="326.0">
+         <children>
+            <TextField fx:id="input_hinzufuegen" layoutX="38.0" layoutY="115.0" prefHeight="26.0" prefWidth="251.0" promptText="Sorte Preis Naehrwert Haltbarkeit Allergene" />
+            <Button fx:id="button_hinzufuegen" layoutX="38.0" layoutY="148.0" mnemonicParsing="false" onAction="#kuchenEinfuegen" text="Hinzufügen" />
+            <Label fx:id="label_hinzufuegen" layoutX="38.0" layoutY="94.0" text="Kuchen hinzufügen" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="188.0" prefHeight="293.0" prefWidth="326.0">
+         <children>
+            <Label fx:id="label_entfernen" layoutX="38.0" layoutY="53.0" text="Kuchen entfernen" />
+            <TextField fx:id="input_entfernen" layoutX="38.0" layoutY="76.0" prefHeight="26.0" prefWidth="97.0" promptText="Fachnummer" />
+            <Button fx:id="button_entfernen" layoutX="38.0" layoutY="109.0" mnemonicParsing="false" onAction="#kuchenEntfernen" text="Entfernen" />
+            <Label fx:id="label_aendern" layoutX="163.0" layoutY="53.0" text="Inspektionsdatum ändern" />
+            <TextField fx:id="input_update" layoutX="163.0" layoutY="76.0" prefHeight="26.0" prefWidth="97.0" promptText="Fachnummer" />
+            <Button fx:id="button_aendern" layoutX="163.0" layoutY="109.0" mnemonicParsing="false" onAction="#inspektionsdatumAendern" text="Update" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

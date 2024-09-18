@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CLI/CLI.iml" filepath="$PROJECT_DIR$/CLI/CLI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CLIControl/CLIControl.iml" filepath="$PROJECT_DIR$/CLIControl/CLIControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EventHandling/EventHandling.iml" filepath="$PROJECT_DIR$/EventHandling/EventHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI/GUI.iml" filepath="$PROJECT_DIR$/GUI/GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO/IO.iml" filepath="$PROJECT_DIR$/IO/IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Net/Net.iml" filepath="$PROJECT_DIR$/Net/Net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simulation 1/Simulation 1.iml" filepath="$PROJECT_DIR$/Simulation 1/Simulation 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Util/Util.iml" filepath="$PROJECT_DIR$/Util/Util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belegProg3.iml" filepath="$PROJECT_DIR$/belegProg3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contract/contract.iml" filepath="$PROJECT_DIR$/contract/contract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domainLogic/domainLogic.iml" filepath="$PROJECT_DIR$/domainLogic/domainLogic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domainLogicControl/domainLogicControl.iml" filepath="$PROJECT_DIR$/domainLogicControl/domainLogicControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netControl/netControl.iml" filepath="$PROJECT_DIR$/netControl/netControl.iml" />
+    </modules>
+  </component>
+</project>
