@@ -36,7 +36,6 @@ public class ObstkuchenImpl implements Obstkuchen, Serializable {
 
 
     // setter
-    // koennten alle ins selbe package und dann package private aber dann geht eben auch Packetierung verloren
     public void setEinfuegedatum(Date einfuegedatum) {
         this.einfuegedatum = einfuegedatum;
     }
