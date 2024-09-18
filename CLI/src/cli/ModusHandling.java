@@ -9,7 +9,7 @@ import parser.Parser;
 
 import java.util.Scanner;
 
-// alles package private
+
 class ModusHandling {
     protected final Scanner Scanner;
     private final Parser Parser;
@@ -19,7 +19,6 @@ class ModusHandling {
         Parser = new Parser();
     }
 
-    // Methoden sind alle package private
     void handleC(Benutzeroberflaeche bof) {
         while (true) {
             try {
