@@ -12,8 +12,6 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 
 class VerkaufsautomatTest {
-    // Hinweis: useCase bedeutet immer, die Methodennutzung im Normalfall
-    // also: es wird ein Kuchen hinzugefügt, gelöscht, inspiziert oder die Liste wird ausgegeben
 
     @org.junit.jupiter.api.Test
     void Konstruktor_negativeKapazitaetWirftException() throws Exception { // Quelle https://stackoverflow.com/questions/156503/how-do-you-assert-that-a-certain-exception-is-thrown-in-junit-tests
