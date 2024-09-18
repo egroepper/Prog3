@@ -7,8 +7,6 @@ Entwicklung einer mehrschichtigen und getesteten Anwendung zur Verwaltung der In
 - Übersicht der einzelnen Modules [Architekturdiagramm](Architekturdiagramm.jpeg)
 - Anforderungen des Belegs [Anforderungen](Beleg.PZR1.pdf)
 - implementierte Funktionalitäten [Checkliste-1.PRZ](Checklist.PZR1.md)
-  
-_Hinweis: Event System wurde händisch erstellt werden, keine Benutzung von Java Spring Boot oder ähnlichen Frameworks_
 
 ### persönlicher Fokus lag auf: 
 - übersichtlicher Code
