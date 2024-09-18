@@ -1,12 +1,13 @@
-**Beleg des Moduls "Programmierung 3"**
 
 ### Projektbeschreibung
 
 Entwicklung einer mehrschichtigen und getesteten Anwendung zur Verwaltung der Inhalte (Kuchen) eines Verkaufsautomaten mit begrenzter Kapazität.
 
 ### Projektstruktur
-- Übersicht der einzelnen Modules in "Architekturdiagramm.jpeg". 
-- Checkliste der geforderten Funktionalitäten in "Checklist.PRZ1.md"
+- Übersicht der einzelnen Modules [Architekturdiagramm](Architekturdiagramm.jpeg)
+- Anforderungen des Belegs [Anforderungen](Beleg.PZR1.pdf)
+- implementierte Funktionalitäten [Checkliste-1.PRZ](Checklist.PZR1.md)
+
   
 _Hinweis: Event System wurde händisch erstellt werden, keine Benutzung von Java Spring Boot oder ähnlichen Frameworks_
 
