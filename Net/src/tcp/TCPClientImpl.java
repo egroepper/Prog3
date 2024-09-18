@@ -62,7 +62,7 @@ public class TCPClientImpl implements NetClient {
             } else {
                 throw new IllegalStateException("ungueltiges Steuerungszeichen");
             }
-        } catch (IOException | ClassNotFoundException e) { // hier Vorschlag von Intellij angenommen
+        } catch (IOException | ClassNotFoundException e) { 
             throw new RuntimeException(e);
         }
     }
